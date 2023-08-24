@@ -41,15 +41,15 @@ public class DesignerPage {
         return driver.findElement(buttonCreatedOrder);
     }
 
-    public String getRollsName(){
+    public String getRollsName() {
         return driver.findElement(rollsName).getText();
     }
 
-    public String getSaucesName(){
+    public String getSaucesName() {
         return driver.findElement(saucesName).getText();
     }
 
-    public String getFillingName(){
+    public String getFillingName() {
         return driver.findElement(fillingName).getText();
     }
 }

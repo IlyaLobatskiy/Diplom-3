@@ -29,7 +29,7 @@ public class PersonalAccountPage {
         return new AuthorizationPage(driver);
     }
 
-    public String getProfileLinkText(){
+    public String getProfileLinkText() {
         return driver.findElement(profileLink).getText();
     }
 }

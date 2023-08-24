@@ -3,10 +3,11 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.praktikum.BaseUrl;
 import org.praktikum.api.AuthorizationUser;
 import org.praktikum.api.DeleteUser;
 
-public abstract class BaseTest {
+public abstract class BaseTest extends BaseUrl {
     protected final String name = "Test";
     protected final String email = "TestTestov@test.ru";
     protected final String password = "Qwerty";
@@ -18,7 +19,7 @@ public abstract class BaseTest {
     public void setUpDriver() {
 
         ChromeOptions options = new ChromeOptions();
-        options.setBinary("C:/Users/Huawei/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Yandex.exe");
+        options.setBinary("src/test/java/Resources/bin/Application/Yandex/browser.exe");
         options.addArguments("--window-size=1920,1080", "--no-default-browser-check", "--deny-permission-prompts",
                 "--disable-save-password-bubble");
         driver = new ChromeDriver(options);

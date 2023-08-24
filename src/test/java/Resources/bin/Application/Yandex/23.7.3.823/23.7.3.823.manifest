@@ -1,0 +1,8 @@
+<assembly
+  xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <assemblyIdentity
+      name='23.7.3.823'
+      version='23.7.3.823'
+      type='win32'/>
+  <file name='browser_elf.dll'/>
+</assembly>

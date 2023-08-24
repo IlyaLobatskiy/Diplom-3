@@ -14,7 +14,7 @@ public class PasswordRecoveryPage {
         this.driver = driver;
     }
 
-    public AuthorizationPage enterLinkClick(){
+    public AuthorizationPage enterLinkClick() {
         driver.findElement(enterLink).click();
         return new AuthorizationPage(driver);
     }

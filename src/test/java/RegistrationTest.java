@@ -13,7 +13,7 @@ public class RegistrationTest extends BaseTest {
 
     @Before
     public void getUrl() {
-        driver.get("https://stellarburgers.nomoreparties.site/register");
+        driver.get(baseUrl + "/register");
     }
 
     @Test

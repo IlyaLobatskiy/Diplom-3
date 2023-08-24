@@ -6,6 +6,6 @@
 2. Apache Maven: 3.9.1
 3. Junit: 4.13.2
 4. Selenium-java: 4.9.1
-5. WebDriverManager: 5.3.3
+5. ChromeDriver and Browse: 114.0.5735.90
 
 [Start test\`s](`mvn clean test`)

@@ -1,0 +1,143 @@
+{
+  "apps_api": [
+  ],
+  "apps_blacklist": [
+  ],
+  "apps_prepopulate_whitelist": [
+    "https://mail.yandex.ua/*",
+    "https://calendar.yandex.ua/*",
+    "https://yandex.ua/maps/*",
+    "https://yandex.ua/pogoda/*",
+    "https://market.yandex.ua/*",
+    "https://music.yandex.ua/*",
+    "https://translate.yandex.ua/*",
+    "https://local.yandex.ua/*",
+    "https://yandex.ua/q/*",
+    "https://taxi.yandex.ua/*",
+    "https://yandex.ua/uslugi*",
+    "https://direct.yandex.ua/*",
+    "https://metrika.yandex.ua/*",
+    "https://yandex.ua/games/*",
+    "https://disk.yandex.ua/*"
+  ],
+  "apps_list_autoinstall": [
+    "https://calendar.yandex.ua/*",
+    "https://yandex.ua/maps/*",
+    "https://yandex.ua/pogoda/*",
+    "https://market.yandex.ua/*"
+  ],
+  "apps_promo_list": [
+    "https://music.yandex.ua/*",
+    "https://translate.yandex.ua/*",
+    "https://local.yandex.ua/*",
+    "https://yandex.ua/q/*"
+  ],
+  "apps_store": [
+    {
+      "apps": [
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/yandex/pochta_win.targetsize-256.png",
+          "name": "Почта",
+          "scope": "https://mail.yandex.ua/"
+        },
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/yandex/corp_calendar_win.targetsize-256.png",
+          "name": "Календарь",
+          "scope": "https://calendar.yandex.ua/"
+        },
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/yandex/translator_win.targetsize-256.png",
+          "name": "Переводчик",
+          "scope": "https://translate.yandex.ua/"
+        },
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/yandex/disk_win.targetsize-256.png",
+          "name": "Диск",
+          "scope": "https://disk.yandex.ua/"
+        },
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/yandex/maps_win.targetsize-256.png",
+          "name": "Карты",
+          "scope": "https://yandex.ua/maps/"
+        },
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/yandex/taxi_win.targetsize-256.png",
+          "name": "Такси",
+          "scope": "https://taxi.yandex.ua/"
+        },
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/yandex/rayon_win.targetsize-256.png",
+          "name": "Район",
+          "scope": "https://local.yandex.ua/"
+        },
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/yandex/music_win.targetsize-256.png",
+          "name": "Музыка",
+          "scope": "https://music.yandex.ua/"
+        },
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/yandex/pogoda_win.targetsize-256.png",
+          "name": "Погода",
+          "scope": "https://yandex.ua/pogoda/"
+        },
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/yandex/uslugi_win.targetsize-256.png",
+          "name": "Услуги",
+          "scope": "https://yandex.ua/uslugi/"
+        },
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/yandex/q_win.targetsize-256.png",
+          "name": "Кью",
+          "scope": "https://yandex.ua/q/"
+        },
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/yandex/market_win.targetsize-256.png",
+          "name": "Маркет",
+          "scope": "https://market.yandex.ua/"
+        }
+      ],
+      "name": "Популярные приложения"
+    },
+    {
+      "apps": [
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/not_yandex/whatsapp_win.targetsize-256.png",
+          "name": "WhatsApp",
+          "scope": "https://web.whatsapp.com/"
+        },
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/not_yandex/telegram_win.targetsize-256.png",
+          "name": "Telegram",
+          "scope": "https://web.telegram.org/"
+        },
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/not_yandex/messenger_win.targetsize-256.png",
+          "name": "Messenger",
+          "scope": "https://www.messenger.com/"
+        },
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/not_yandex/skype_win.targetsize-256.png",
+          "name": "Skype",
+          "scope": "https://web.skype.com/"
+        },
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/not_yandex/discord_win.targetsize-256.png",
+          "name": "Discord",
+          "scope": "https://discord.com/"
+        },
+        {
+          "icon_url": "https://browser-resources.s3.yandex.net/old/get/browser/launcher_images/windows/not_yandex/slack_win.targetsize-256.png",
+          "name": "Slack",
+          "scope": "https://slack.com/"
+        }
+      ],
+      "name": "Мессенджеры"
+    }
+  ],
+  "default_apps": [
+    {
+      "install": "all",
+      "scope": "https://mail.yandex.ua/"
+    }
+  ]
+}
